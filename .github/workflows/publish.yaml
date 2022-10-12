@@ -37,7 +37,7 @@ jobs:
       run: |
         #!/usr/bin/env bash
         set -euo pipefail
-        pack build ${REPO}:${{RELEASE_VERSION}}   \
+        pack build ${REPO}:${RELEASE_VERSION}     \
           --tag ${REPO}:latest                    \
           --buildpack paketo-buildpacks/go        \
           --builder paketobuildpacks/builder:tiny \

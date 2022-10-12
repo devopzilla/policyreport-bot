@@ -1,0 +1,11 @@
+filters:
+  - channel: "#bot-training"
+    limit: 3
+    labels:
+      accessibility: internet-facing
+      data: sensitive
+    
+# accessibility: internet-facing
+# data: pii
+# data: pci
+# data: health
